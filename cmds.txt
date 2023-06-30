@@ -29,3 +29,33 @@ git reset --hard
 
 
 ```
+
+
+```sh
+git log
+
+git log --oneline
+# ae4d283 (HEAD -> main) file1
+
+git add .
+git commit -m "add"
+git log --oneline
+
+git branch branch1
+git log --oneline
+git checkout branch1
+
+cp demo1.py demo2.py
+vim demo2.py
+git add .
+git commit -m "subtract"
+
+git add .
+git commit -m "subtract fixed"
+
+vim demo2.py
+git add .
+git commit -m "multiply"
+
+git log --oneline
+```
